@@ -23,9 +23,9 @@ const MovieList = () => {
 
     return (
         <div className="bg-gray-900 min-h-screen py-10 px-4">
-            <h1 className="text-3xl font-bold text-center text-white mb-8">Movie Database</h1>
+            <h1 className="text-3xl font-bold p-5 text-white mb-8">100 Movies....</h1>
             {movies.length === 0 ? (
-                <p className="text-center text-white">No movies found.</p>
+                <p className="p-5 text-white">No movies found....</p>
             ) : (
                 <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                     {movies.map((movie) => (
