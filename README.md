@@ -1,8 +1,7 @@
-# React + Vite
+# Movie Database Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a movie database application built with React, where users can browse and explore movie information retrieved from an API.
 
-Currently, two official plugins are available:
+Movies API: https://dummyapi.online/api/movies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We use Axios To Fetch Data From Api
