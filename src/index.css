@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.movie-card {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+}
